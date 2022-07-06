@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>presentation_じゃんけんゲーム</title>
+    <link rel="stylesheet" href="RockPaperScissors.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="title">じゃんけんゲーム！</h1>
+        <img class="opponent"
+            src="https://4.bp.blogspot.com/-toaP1vMGZAM/UNbkIddJNqI/AAAAAAAAJTk/MeuaawYOaLw/s200/mark_question.png"
+            alt="？マーク">
+        <div class="result"></div>
+        <ul>
+            <!-- 自分のじゃんけんアイコン表示 -->
+            <li><img src="https://2.bp.blogspot.com/-VhlO-Yfjy_E/Uab3z3RNJQI/AAAAAAAAUVg/fX8VnSVDlWs/s220/janken_gu.png"
+                    style="display:block;margin:auto;" width="200" height="200" onclick="youHandRock()"></li>
+            <li><img src="https://4.bp.blogspot.com/-__yEIXe5SxU/Uab3zO7BB2I/AAAAAAAAUVI/MYg6TVeiv-Y/s270/janken_choki.png"
+                    style="display:block;margin:auto;" width="200" height="200" onclick="youHandScissors()"></li>
+            <li><img src="https://3.bp.blogspot.com/-qZtyoue9xKs/Uab30IG0Q5I/AAAAAAAAUVk/qnH8a2OgrvI/s290/janken_pa.png"
+                    style="display:block;margin:auto;" width="200" height="200" onclick="youHandPaper()"></li>
+        </ul>
+        <h2 class="explanation">あなたが出す手を上の画像から選択してください</h2>
+    </main>
+    <script src="RockPaperScissors.js"></script>
+</body>
